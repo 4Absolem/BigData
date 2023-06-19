@@ -49,8 +49,8 @@ public class Aire {
     
     public String toCSV()
     {
-        return "" + nombreEstacion + "," + fechaDatos + "," + temperaturaMinima + "," + horaTemperaturaMinima + "," + temperaturaMaxima + "," + horaTemperaturaMaxima + "";
-    }
+        return "Estacion{" + "Nombre estacion=" + nombreEstacion + ", Fecha de datos=" + fechaDatos + ", Temperatura minima=" + temperaturaMinima +", Hora de Temperatura Minima=" + horaTemperaturaMinima +", Temperatura Maxima=" + temperaturaMaxima +", Hora de Temperatura Maxima=" + horaTemperaturaMaxima + '}';
+     }
     
     
     
